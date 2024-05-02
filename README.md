@@ -1,7 +1,7 @@
 
 ## Author
 
-- [@Akshay G Gouda](https://github.com/akshaygouda0707)
+- [@Vidyashree C N](https://github.com/Vidyashreecn)
 ---
 
 # Campus Placement Management System
