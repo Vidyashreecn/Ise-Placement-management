@@ -34,7 +34,7 @@ This system consists of a database schema with tables for managing student and c
    - They can view their own placement details and update personal information if needed.
 
 2. **Company Module**:
-   - Companies can register in the system by providing details such as name, seat offers, and minimum CGPA requirement (`company` table).
+   - Admin  add the company details to the system by providing details such as name, seat offers, and minimum CGPA requirement (`company` table).
    - They can view and manage placement records of students who have been placed in their company (`placement` table).
 
 3. **Placement Module**:
@@ -48,11 +48,11 @@ This system consists of a database schema with tables for managing student and c
 ## System Workflow:
 
 1. **Student Registration**:
-   - Students register by providing personal information (`student` table).
+   - Admin add the student's personal information (`student` table).
    - Upon successful registration, they receive login credentials stored in the `login` table.
 
 2. **Company Registration**:
-   - Companies register by providing company details (`company` table).
+   - Admin can add company details to (`company` table).
    - Upon registration, they can access placement records of students (`placement` table) relevant to their recruitment process.
 
 3. **Placement Process**:
@@ -61,7 +61,7 @@ This system consists of a database schema with tables for managing student and c
 
 4. **Authentication and Access Control**:
    - Only authorized users with valid login credentials (stored in the `login` table) can access the system.
-   - Different access levels may be implemented, allowing administrators, students, and companies to access relevant modules.
+   - Only placement adminstrator can login and allow acces to this system.
 
 ## Sample Queries:
 
